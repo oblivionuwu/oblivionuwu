@@ -1,0 +1,148 @@
+#yournamebanner{
+		width: 100%;
+	}
+
+#ynlogo{
+		width: 30%;
+		position: absolute;
+		left: 518px;
+		filter: brightness(1000);
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: regular;
+}
+
+a {
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+h1{
+	font-size: 500%;
+	padding: 3px;
+}
+
+#button{
+	font-size: 300%;
+	color: #F9DDF8;
+	border-radius: 20px;
+	border: 2px solid black;
+	background-color: black;
+	padding: 2px;
+	position: absolute;
+	top: 600px;
+	left: 25px;
+
+}
+ 
+h2{
+	font-size: 300%;
+}
+
+p{
+	font-size: 125%;
+	color: black;
+}
+
+.card{
+	height: 330px;
+	width: 360px;
+	object-fit: cover;
+	border-radius: 20px;
+	box-shadow: 2px 5px 5px grey;
+}
+
+li{
+	list-style-type: none;
+	margin: 10px;
+	padding: 20px;
+	text-decoration: none;
+}
+
+#titleword{
+	opacity: 0.8;
+	position: absolute;
+	top: 250px;
+	left: 25px;
+	text-align: left;
+	padding: 7px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#bannerdiv{
+	display: flex;
+}
+
+.carddiv{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+
+#listend{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 50px;
+}
+
+#banner2{
+	display: flex;
+}
+
+#weatheringwy{
+	width: 100%;
+	border-radius: 20px;
+}
+
+#banner2text{
+	opacity: 0.8;
+	position: absolute;
+	top:2000px;
+	left:1000px;
+}
+
+p:hover {
+		color: rebeccapurple;
+}
+
+.card:hover {
+	opacity: 0.8;
+	size: 300px;
+}
+
+h1:hover{
+		color:#303030;
+		opacity: 0.6;
+}
+
+li:hover{
+	opacity: 0.8;
+
+}
+
+#listend a{
+	color: black;
+}
+
+@media screen and (max-width: 641px){
+	h1{
+		font-size: 50px;
+		display: flex;
+		position: absolute;
+		top: 50px;
+	}
+	#button{
+		display: none;
+	}
+}
